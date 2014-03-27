@@ -1,5 +1,6 @@
 #include "aligner.h"
 #include "config.h"
+#include <unistd.h>
 
 void printCluster(std::pair<double, RNAProfileAlignment*> cluster,
                   unsigned int clusterNr, double minPairProb, const Options & options) {
